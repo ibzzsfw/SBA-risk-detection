@@ -1,0 +1,145 @@
+{
+    "name": "National SBA",
+    "size": "899,164 observations, 27 variables",
+    "source": "United States Small Business Administration",
+    "story": "This data set is from the U.S. Small Business Administration (SBA) and provides historical data from 1987 through 2014.  This large data set contains 27 variables and 899,164 observations.  Each observation represents a loan that was guaranteed to some degree by the SBA. Included is a variable [MIS_Status] which indicates if the loan was paid in full or defaulted/charged off.",
+    "description": "The data reside in a comma-separated values (csv) file.  A header line contains the name of the variables.",
+    "variables": [
+        {
+            "Variable Name": "LoanNr_ChkDgt",
+            "Data Type": "Text",
+            "Description of variable": "Identifier – Primary Key"
+        },
+        {
+            "Variable Name": "Name",
+            "Data Type": "Text",
+            "Description of variable": "Borrower Name"
+        },
+        {
+            "Variable Name": "City",
+            "Data Type": "Text",
+            "Description of variable": "Borrower City"
+        },
+        {
+            "Variable Name": "State",
+            "Data Type": "Text",
+            "Description of variable": "Borrower State"
+        },
+        {
+            "Variable Name": "Zip",
+            "Data Type": "Text",
+            "Description of variable": "Borrower Zip Code"
+        },
+        {
+            "Variable Name": "Bank",
+            "Data Type": "Text",
+            "Description of variable": "Bank Name"
+        },
+        {
+            "Variable Name": "BankState",
+            "Data Type": "Text",
+            "Description of variable": "Bank State"
+        },
+        {
+            "Variable Name": "NAICS",
+            "Data Type": "Text",
+            "Description of variable": "North American Industry Classification System code"
+        },
+        {
+            "Variable Name": "ApprovalDate",
+            "Data Type": "Date/Time",
+            "Description of variable": "Date SBA Commitment Issued"
+        },
+        {
+            "Variable Name": "ApprovalFY",
+            "Data Type": "Text",
+            "Description of variable": "Fiscal Year of Commitment"
+        },
+        {
+            "Variable Name": "Term",
+            "Data Type": "Number",
+            "Description of variable": "Loan term in months"
+        },
+        {
+            "Variable Name": "NoEmp",
+            "Data Type": "Number",
+            "Description of variable": "Number of Business Employees"
+        },
+        {
+            "Variable Name": "NewExist",
+            "Data Type": "Text",
+            "Description of variable": "1 = Existing Business",
+            "": "2 = New Business"
+        },
+        {
+            "Variable Name": "CreateJob",
+            "Data Type": "Number",
+            "Description of variable": "Number of jobs created"
+        },
+        {
+            "Variable Name": "RetainedJob",
+            "Data Type": "Number",
+            "Description of variable": "Number of jobs retained"
+        },
+        {
+            "Variable Name": "FranchiseCode",
+            "Data Type": "Text",
+            "Description of variable": "Franchise Code 00000 or 00001 = No Franchise"
+        },
+        {
+            "Variable Name": "UrbanRural",
+            "Data Type": "Text",
+            "Description of variable": "1= Urban, 2= Rural"
+        },
+        {
+            "Variable Name": "RevLineCr",
+            "Data Type": "Text",
+            "Description of variable": "Revolving Line of Credit : Y = Yes"
+        },
+        {
+            "Variable Name": "LowDoc",
+            "Data Type": "Text",
+            "Description of variable": "LowDoc Loan Program: Y = Yes, N = No"
+        },
+        {
+            "Variable Name": "ChgOffDate",
+            "Data Type": "Date/Time",
+            "Description of variable": "The date when a loan is declared to be in default"
+        },
+        {
+            "Variable Name": "DisbursementDate",
+            "Data Type": "Date/Time",
+            "Description of variable": "Disbursement Date"
+        },
+        {
+            "Variable Name": "DisbursementGross",
+            "Data Type": "Currency",
+            "Description of variable": "Amount Disbursed"
+        },
+        {
+            "Variable Name": "BalanceGross",
+            "Data Type": "Currency",
+            "Description of variable": "Gross amount outstanding"
+        },
+        {
+            "Variable Name": "MIS_Status",
+            "Data Type": "Text",
+            "Description of variable": "Loan Status"
+        },
+        {
+            "Variable Name": "ChgOffPrinGr",
+            "Data Type": "Currency",
+            "Description of variable": "Charged-off Amount"
+        },
+        {
+            "Variable Name": "GrAppv",
+            "Data Type": "Currency",
+            "Description of variable": "Gross Amount of Loan Approved by Bank"
+        },
+        {
+            "Variable Name": "SBA_Appv",
+            "Data Type": "Currency",
+            "Description of variable": "SBA’s Guaranteed Amount of Approved Loan"
+        }
+    ]
+}
