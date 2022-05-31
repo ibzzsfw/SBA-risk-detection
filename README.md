@@ -1,4 +1,3 @@
-# FallenAngel SBA
 ## SBA-risk-detection
 
 For CPE213 Data model project
