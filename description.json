@@ -3,6 +3,7 @@
     "size": "899,164 observations, 27 variables",
     "source": "United States Small Business Administration",
     "story": "This data set is from the U.S. Small Business Administration (SBA) and provides historical data from 1987 through 2014.  This large data set contains 27 variables and 899,164 observations.  Each observation represents a loan that was guaranteed to some degree by the SBA. Included is a variable [MIS_Status] which indicates if the loan was paid in full or defaulted/charged off.",
+    "report": "https://mailkmuttacth-my.sharepoint.com/:b:/g/personal/suppakorn_rakna_mail_kmutt_ac_th/EY0qKFbmg2tFtAp0zvtkRhEBo5d2ytUE9ZyyBtVpUAJ1Ag?e=hG1rFT",
     "dataset": [
         {
             "data": "SBAnational",
